@@ -21,3 +21,6 @@ In this guide, we will:
 Let's assume you have a simple service defined in a `docker-compose.yml` file. By default, a service in Docker Compose runs as a single container. To scale the service across multiple containers, we can use the `--scale` flag.
 
 ` docker compose up --scale api=2`
+
+
+for reference [https://dev.to/iamsujit/scale-docker-without-k8s-or-swarm-19an]
